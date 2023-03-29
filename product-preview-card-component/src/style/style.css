@@ -58,6 +58,8 @@ h2{
 p#title{
     letter-spacing: 3px;
     text-align: left;
+    font-size: 10px;
+    margin-left: 15px;
 }
 p#price{
     text-decoration: line-through;    
@@ -80,8 +82,12 @@ div.old-price{
     margin-left: 10px;
 }
 div.new-price{
+    font-family: var(--font-sec);
     margin-left: 10px;
+    font-size: 18px;
 }
 p.desc-perfume{
     margin-left: 15px;
+    text-align: left;
+    font-size: 13px;
 }
