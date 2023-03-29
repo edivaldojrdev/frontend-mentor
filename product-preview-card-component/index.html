@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="src/style/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <title>Frontend Mentor | Product preview card component</title>  
 </head>
 <body>
-    <main>
-        <div id="img"><img src="src/images/image-product-desktop.jpg" alt="imagem perfume"></div>
-        <div id="desc">
-            <p id="title">
-                PERFUME
-            </p>
-            <h1>
-                Gabrielle Essence Eau De Parfum
-            </h1>
-            <p class="desc-perfume">
-                A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
-            </p>
-            <div class="box-price">
-                <div class="new-price">
-                    <h2>
-                        $149.99
-                    </h2>
-                </div>
-                <div class="old-price">
-                    <p id="price">
-                        $169.99
-                    </p>
-                </div>
-            </div>
-            <button>                
-                Add to Cart
-            </button>
-        </div>
-    </main>
-    
+  <main class="anuncio">
+    <div class="quadrado" id="img">
+      <img src="src/images/image-product-desktop.jpg" alt="image product" class="imgperfum">
+    </div>
+    <div class="quadrado" id="conteudo">
+      <h3>
+        PERFUME
+      </h3>
+      <h1>
+        Gabrielle Essence Eau De Parfum
+      </h1>
+      <p>
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+      </p>
+      <div class="price">
+        <h2>
+          $149.99
+        </h2>
+        <h4>
+          $169.99
+        </h4>
+      </div>
+      <button class="addcart">
+        <img src="src/images/icon-cart.svg" alt="" class="imgcar">
+        Add to Cart
+      </button>
+    </div>
+  </main>
 </body>
 </html>

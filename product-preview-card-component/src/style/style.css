@@ -1,94 +1,125 @@
-@charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
 
 *{
+    padding: 0px;
     margin: 0px;
-    padding: 0px;    
 }
 :root{
-    --cor0: hsl(158, 36%, 37%);
-    --cor1: hsl(30, 38%, 92%);
-    --cor2: hsl(212, 21%, 14%);
-    --cor3: hsl(228, 12%, 48%);
-    --cor4: hsl(0, 0%, 100%);
-
-    --font-princ: 'Montserrat', sans-serif;
-    --font-sec: 'Fraunces', serif;
+    --cor01: hsl(158, 36%, 37%);
+    --cor02: hsl(30, 38%, 92%);
+    --cor03: hsl(212, 21%, 14%);
+    --cor04: hsl(228, 12%, 48%);
+    --cor05: hsl(0, 0%, 100%);
+    --font-geral: 'Montserrat', sans-serif;
+    --font-tit: 'Fraunces', serif;
 }
 body{
-    background-color: var(--cor1);
-    font-size: 14px;
-    font-family: var(--font-princ);
-    min-height: 100vh;
-    display: flex;  
-    align-items: center;  
+    background-color: var(--cor02);
 }
 main{
-    background-color: white; 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto; 
-    width: 500px; 
-    height: 375px;
-    border-radius: 15px;       
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-div{
-    display: inline-block;
-}
-div#desc{
-    padding: 25px 30px 30px 10px;
-
-}
-p{
-    color: var(--cor3);
-    text-align: center;
-    margin-bottom: 10px;
-}
-h1{
-    font-family: var(--font-sec);
-    margin-left: 15px;
-    margin-bottom: 10px;
-}
-h2{
-    color: var(--cor0);
-}
-p#title{
-    letter-spacing: 3px;
-    text-align: left;
-    font-size: 10px;
-    margin-left: 15px;
-}
-p#price{
-    text-decoration: line-through;    
-}
-button{
-    background-color: var(--cor0);
-    font-family: var(--font-princ);
-    color: white;
-    padding: 10px 30px 10px 30px;
-    border-color: transparent;
-    border-radius: 10px;
-    margin-left: 40px;
-    margin-top: 20px;
-       
-}
-img{
+img.imgperfum{
     width: 250px;
+    height: 350px;
     border-radius: 15px 0px 0px 15px;
 }
-div.old-price{
-    margin-left: 10px;
+div.quadrado{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
 }
-div.new-price{
-    font-family: var(--font-sec);
-    margin-left: 10px;
-    font-size: 18px;
+div#conteudo{
+    padding: 20px;
+    width: 250px;
 }
-p.desc-perfume{
-    margin-left: 15px;
-    text-align: left;
+h3{
+    font-family: var(--font-geral);
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--cor04);
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+h1{
+    font-family: var(--font-tit);
+    line-height: 30px;
+    font-size: 27px;
+    padding: 0px 10px 0px 0px;
+    margin-bottom: 15px;
+}
+p{
+    font-family: var(--font-geral);
+    color: var(--cor04);
     font-size: 13px;
+    margin-bottom: 20px;
+}
+h2{
+    font-family: var(--font-tit);
+    color: var(--cor01);
+    
+}
+h4{
+    font-family: var(--font-geral);
+    text-decoration: line-through;
+    color: var(--cor04);
+    font-weight: normal;
+    padding: 8px 0px 0px 23px;
+    font-size: 12px;
+    
+}
+div.price{
+    display: flex;  
+    margin-bottom: 25px;  
+}
+.addcart{
+    background-color: var(--cor01);
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-family: var(--font-geral);
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+}
+img.imgcar{
+    padding-right: 10px;    
+}
+@media (max-width:550px){
+    main{
+        flex-direction: column;
+        width: 250px;
+        height: 700px;
+    }
+    h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    h1{
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+    div#conteudo{
+        padding: 10px;
+    }
+    img.imgperfum{
+        border-radius: 15px 15px 0px 0px;
+    }
+    div.price{
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    .addcart{
+        margin-left: 15px;
+    }
 }
