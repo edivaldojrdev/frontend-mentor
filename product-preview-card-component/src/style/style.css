@@ -8,43 +8,49 @@
     margin: 0px;
     padding: 0px;    
 }
-
 :root{
---cor0: hsl(158, 36%, 37%);
---cor1: hsl(30, 38%, 92%);
---cor2: hsl(212, 21%, 14%);
---cor3: hsl(228, 12%, 48%);
---cor4: hsl(0, 0%, 100%);
+    --cor0: hsl(158, 36%, 37%);
+    --cor1: hsl(30, 38%, 92%);
+    --cor2: hsl(212, 21%, 14%);
+    --cor3: hsl(228, 12%, 48%);
+    --cor4: hsl(0, 0%, 100%);
 
---font-princ: 'Montserrat', sans-serif;
---font-sec: 'Fraunces', serif;
+    --font-princ: 'Montserrat', sans-serif;
+    --font-sec: 'Fraunces', serif;
 }
-
 body{
     background-color: var(--cor1);
     font-size: 14px;
     font-family: var(--font-princ);
     min-height: 100vh;
-    display: flex;
-    align-items: center;
+    display: flex;  
+    align-items: center;  
 }
 main{
-    background-color: white;
-    width: 600px;
-    margin: 0 auto;
-    flex-direction: row;    
+    background-color: white; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto; 
+    width: 500px; 
+    height: 375px;
+    border-radius: 15px;       
 }
-
+div{
+    display: inline-block;
+}
 div#desc{
-    padding: 30px 10px 30px 10px;
+    padding: 25px 30px 30px 10px;
+
 }
 p{
     color: var(--cor3);
     text-align: center;
+    margin-bottom: 10px;
 }
 h1{
     font-family: var(--font-sec);
-    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 h2{
     color: var(--cor0);
@@ -63,12 +69,19 @@ button{
     padding: 10px 30px 10px 30px;
     border-color: transparent;
     border-radius: 10px;
-}
-div#img{
-    width: 300px;
-    height: 450px;    
+    margin-left: 40px;
+    margin-top: 20px;    
 }
 img{
-    width: 300px;
-    height: 450px;
+    width: 250px;
+    border-radius: 15px 0px 0px 15px;
+}
+div.old-price{
+    margin-left: 10px;
+}
+div.new-price{
+    margin-left: 10px;
+}
+p.desc-perfume{
+    margin-left: 15px;
 }
