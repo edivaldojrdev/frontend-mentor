@@ -92,7 +92,10 @@ body{
 }
 .skill1{
     display: flex;
-    color: var(--cor01);    
+    color: var(--cor01);
+    background-color: aqua; 
+    width: 250px;
+    margin-left: 20px;   
 }
 .skill2{
     display: flex;
