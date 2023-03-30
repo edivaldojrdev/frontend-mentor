@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root{
+    /* Primary */
+
+    --cor01: hsl(0, 100%, 67%);
+    --cor02: hsl(39, 100%, 56%);
+    --cor03: hsl(166, 100%, 37%);
+    --cor04: hsl(234, 85%, 45%);
+
+    /*  Gradients */
+
+    --cor05-bg: hsl(252, 100%, 67%);
+    --cor06-bg: hsl(241, 81%, 54%);
+
+    --cor07-c: hsla(256, 72%, 46%, 1);
+    --cor08-c: hsla(241, 72%, 46%, 0);
+
+    /* Neutral */
+
+    --cor09: hsl(0, 0%, 100%);
+    --cor10: hsl(221, 100%, 96%);
+    --cor11: hsl(241, 100%, 89%);
+    --cor12: hsl(224, 30%, 27%);
+
+
+    --font: 'Hanken Grotesk', sans-serif; 
+}
+
+*{
+    padding: 0px;
+    margin: 0px;    
+}
+body{
+    background-color: var(--cor10);
+    font-family: var(--font);
+}
+.full-box{
+    background-color: white;    
+    width: 600px;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    top: 50%;    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+}
+.blue-box{
+    background-image: linear-gradient(to top, var(--cor06-bg), var(--cor05-bg));
+    width: 300px;
+    color: white;
+    text-align: center;
+    border-radius: 10%;
+}
+.white-box{
+    background-color: white;
+    width: 300px;
+    border-radius: 10%;       
+}
+.tb1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--cor11);
+}
+.tb2{
+    background-image: linear-gradient(to top, var(--cor07-c), var(--cor08-c));
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.first-number{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.second-number{
+    color: var(--cor11);
+    font-weight: lighter;
+    font-size: 13px;
+}
+.tb3{
+    margin-bottom: 20px;        
+}
+.text{
+    color: var(--cor11);
+    padding: 0px 50px 0px 50px;
+    font-size: 14px;
+}
+.skill1{
+    display: flex;
+    color: var(--cor01);    
+}
+.skill2{
+    display: flex;
+    color: var(--cor02);
+}
+.skill3{
+    display: flex;
+    color: var(--cor03);
+}
+.skill4{
+    display: flex;
+    color: var(--cor04);
+}
