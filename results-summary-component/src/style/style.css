@@ -6,9 +6,13 @@
     /* Primary */
 
     --cor01: hsl(0, 100%, 67%);
+    --cor01-t:hsla(0, 100%, 67%, 0.062);
     --cor02: hsl(39, 100%, 56%);
+    --cor02-t:hsl(39, 100%, 56%, 0.062);
     --cor03: hsl(166, 100%, 37%);
+    --cor03-t:hsl(166, 100%, 37%, 0.062);
     --cor04: hsl(234, 85%, 45%);
+    --cor04-t:hsl(234, 85%, 45%, 0.062);
 
     /*  Gradients */
 
@@ -90,22 +94,73 @@ body{
     padding: 0px 50px 0px 50px;
     font-size: 14px;
 }
+.tw1{
+    margin: 20px 0px 20px 20px;
+}
+.skill1,.skill2,.skill3,.skill4{
+    padding: 5px;
+    font-size: 14px;
+}
 .skill1{
     display: flex;
     color: var(--cor01);
-    background-color: aqua; 
+    background-color: var(--cor01-t);
     width: 250px;
-    margin-left: 20px;   
+    margin-left: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    padding: 10px; 
 }
 .skill2{
     display: flex;
     color: var(--cor02);
+    background-color: var(--cor02-t);
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
 }
 .skill3{
     display: flex;
     color: var(--cor03);
+    background-color: var(--cor03-t);
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
 }
 .skill4{
     display: flex;
     color: var(--cor04);
+    background-color: var(--cor04-t);
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
 }
+.tw6{
+    background-color: var(--cor12);
+    width: 250px;    
+    border-radius: 20px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 20px;
+}
+.current{
+    color: var(--cor12);
+    font-weight: bold;
+    margin-left: 110px;
+    
+}
+.finish{
+    color: var(--cor11);
+    margin-left: 3px;
+    
+}
+button{
+    background-color: var(--cor12);
+    border: none;
+    color: white;
+    border-radius: 10px; 
+    margin-left: 90px;     
+}
+
