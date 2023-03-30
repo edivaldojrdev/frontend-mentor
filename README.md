@@ -6,3 +6,6 @@
  <a href="https://edivaldojrdev.github.io/frontend-mentor/product-preview-card-component/index.html">Product Preview Card Component</a>
  
 <a href="https://edivaldojrdev.github.io/frontend-mentor/results-summary-component/index.html">Results Summary Component</a>
+
+<a href="https://edivaldojrdev.github.io/frontend-mentor/nft-preview-card-component/index.html">NFT Preview Card Component</a>
+
