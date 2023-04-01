@@ -5,6 +5,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;    
 }
 :root{
     --cor01: hsl(158, 36%, 37%);
@@ -17,109 +18,75 @@
 }
 body{
     background-color: var(--cor02);
+    min-height: 100vh;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
 }
 main{
     background-color: white;
-    width: 500px;
-    height: 350px;
-    border-radius: 15px;
+    max-width: 500px;
     display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    flex-direction: row;
+    border-radius: 1rem;
+
 }
 img.imgperfum{
-    width: 250px;
-    height: 350px;
-    border-radius: 15px 0px 0px 15px;
+    max-width: 50%;
+    border-radius: 1rem 0 0 1rem;
 }
-div.quadrado{
-    display: inline-block;
-    width: 250px;
-    height: 350px;
-}
-div#conteudo{
-    padding: 20px;
-    width: 250px;
-}
-h3{
-    font-family: var(--font-geral);
-    font-size: 11px;
-    letter-spacing: 3px;
-    color: var(--cor04);
-    font-weight: normal;
-    margin-bottom: 15px;
+main div.quadrado{
+    padding: 1.5rem;
 }
 h1{
-    font-family: var(--font-tit);
-    line-height: 30px;
-    font-size: 27px;
-    padding: 0px 10px 0px 0px;
-    margin-bottom: 15px;
-}
-p{
+    margin-bottom: 1rem;
     font-family: var(--font-geral);
     color: var(--cor04);
-    font-size: 13px;
-    margin-bottom: 20px;
+    font-size: 0.675rem;
+    font-weight: 500;
+    letter-spacing: 0.163rem;    
 }
-h2{
+.t2{
     font-family: var(--font-tit);
+    font-size: 1.7rem;
+    margin-bottom: 1.4rem;
+    line-height: 1.6rem;
+}
+.description{
+    color: var(--cor04);
+    margin-bottom: 1rem;
+    font-size: 0.950rem;
+}
+.price{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 1.5rem;    
+}
+.newprice{
     color: var(--cor01);
-    
+    font-family: var(--font-tit);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-right: 1rem;
 }
-h4{
-    font-family: var(--font-geral);
-    text-decoration: line-through;
+.oldprice{
     color: var(--cor04);
-    font-weight: normal;
-    padding: 8px 0px 0px 23px;
-    font-size: 12px;
-    
+    font-size: 0.700rem;
+    font-weight: 700;
+    text-decoration: line-through;
 }
-div.price{
-    display: flex;  
-    margin-bottom: 25px;  
-}
-.addcart{
+button{
     background-color: var(--cor01);
-    width: 200px;
-    height: 40px;
-    color: white;
-    font-family: var(--font-geral);
-    border-radius: 10px;
     border: none;
-    font-size: 12px;
+    border-radius: 0.300rem;
+    color: white;
+    width: 100%;
+    height: 2.8rem;
+    font-size: 0.800rem;
+    font-weight: bold;
 }
 img.imgcar{
-    padding-right: 10px;    
+    margin-right: 0.650rem;
 }
-@media (max-width:550px){
-    main{
-        flex-direction: column;
-        width: 250px;
-        height: 700px;
-    }
-    h3{
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    h1{
-        margin-bottom: 20px;
-        padding-left: 10px;
-    }
-    div#conteudo{
-        padding: 10px;
-    }
-    img.imgperfum{
-        border-radius: 15px 15px 0px 0px;
-    }
-    div.price{
-        margin-left: 20px;
-        margin-bottom: 25px;
-    }
-    .addcart{
-        margin-left: 15px;
-    }
-}
+
+   
