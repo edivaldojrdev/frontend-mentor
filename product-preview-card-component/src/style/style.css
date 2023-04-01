@@ -30,7 +30,6 @@ main{
     display: flex;
     flex-direction: row;
     border-radius: 1rem;
-
 }
 img.imgperfum{
     max-width: 50%;
@@ -92,6 +91,7 @@ img.imgcar{
 .addcart:hover{
     background-color: var(--cor01-h);
     cursor: pointer;
+    border-radius: ;
 }
 
    
