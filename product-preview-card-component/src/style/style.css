@@ -9,6 +9,7 @@
 }
 :root{
     --cor01: hsl(158, 36%, 37%);
+    --cor01-h: hsl(157, 31%, 18%);
     --cor02: hsl(30, 38%, 92%);
     --cor03: hsl(212, 21%, 14%);
     --cor04: hsl(228, 12%, 48%);
@@ -87,6 +88,10 @@ button{
 }
 img.imgcar{
     margin-right: 0.650rem;
+}
+.addcart:hover{
+    background-color: var(--cor01-h);
+    cursor: pointer;
 }
 
    
