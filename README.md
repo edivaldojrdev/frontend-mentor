@@ -9,3 +9,5 @@
 
 <a href="https://edivaldojrdev.github.io/frontend-mentor/nft-preview-card-component/index.html">NFT Preview Card Component</a>
 
+<a href="https://edivaldojrdev.github.io/frontend-mentor/order-summary-component/index.html">Order Summary Component</a>
+
