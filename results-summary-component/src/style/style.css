@@ -146,10 +146,10 @@ h1{
 button{
     background-color: var(--cor11);
     border-radius: 1rem;
-    color: white;
-    border-color: transparent;
+    color: white;    
     padding: 0.4rem 0;
-    font-size: 0.8rem;    
+    font-size: 0.8rem;
+    border: 0px;    
 }
 button:hover{
     background-image: linear-gradient(to top, var(--cor05-b), var(--cor04-b));
