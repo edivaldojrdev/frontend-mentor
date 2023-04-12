@@ -138,13 +138,6 @@ body{
     margin-bottom: 40px; 
     border-radius: 10px; 
 }
-.tw6{
-    background-color: var(--cor12);
-    width: 250px;    
-    border-radius: 20px;
-    padding: 10px 0px 10px 0px;
-    margin-left: 25px;
-}
 .current{
     color: var(--cor12);
     font-weight: bold;
@@ -158,10 +151,17 @@ body{
 }
 button{
     background-color: var(--cor12);
+    width: 250px;    
+    border-radius: 20px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 25px;    
     border: none;
     color: white;
     border-radius: 10px; 
-    margin-left: 90px;     
+        
+}
+button:hover{
+    background-color: var(--cor07-c);
 }
 .visualn,.verbaln{
     display: flex;
@@ -169,10 +169,15 @@ button{
     
 }
 @media (max-width: 650px){
+    
     .full-box{
         flex-direction: column;
         height: 700px;
         width: 300px;
+        position: relative;
+        top: 0;    
+        left: 0;
+        transform: none;
     }
     .blue-box{
         padding-bottom: 15px;
@@ -181,3 +186,4 @@ button{
         padding-bottom: 15px;
     }    
 }
+

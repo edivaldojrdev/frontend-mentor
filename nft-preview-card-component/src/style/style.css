@@ -5,17 +5,14 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: var(--font);
 }
 
 :root{
     --font: 'Outfit', sans-serif;
 
-/* Primary */
-
     --cor01: hsl(215, 51%, 70%);
     --cor02: hsl(178, 100%, 50%);
-
-/* Neutral */
 
     --cor03-mainbg: hsl(217, 54%, 11%);
     --cor04-cardbg: hsl(216, 50%, 16%);
@@ -27,8 +24,7 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 .full{
     width: 300px;
@@ -39,7 +35,7 @@ body{
 }
 .desc{
     font-family: var(--font);
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: lighter;
     color: var(--cor01);
     margin-bottom: 15px;
@@ -56,6 +52,9 @@ img.imgeth{
     font-size: 10px;
     padding-bottom: 20px;
 }
+.title:hover{
+    color: var(--cor02);
+}
 .eth{
     color: var(--cor02);
     padding-left: 10px;
@@ -68,15 +67,12 @@ img.imgeth{
 .ethfull{
     display: flex;
     font-size: 8px; 
-    letter-spacing: 1px; 
-    
+    letter-spacing: 1px;    
 }
 .dayfull{
     display: flex;
     padding-left: 80px;
-    font-size: 10px;
-    
-    
+    font-size: 10px;    
 }
 .days{
     color: var(--cor01);
@@ -94,8 +90,7 @@ img.imgeth{
     font-size: 12px;
     letter-spacing: 1px;
     display: flex;
-    padding-left: 30px
-    
+    padding-left: 30px    
 }
 #cre{
     color: var(--cor01);
@@ -103,6 +98,9 @@ img.imgeth{
 #name{
     color: white;
     padding-left: 5px;
+}
+#name:hover{
+    color: var(--cor02);
 }
 .imgfooter{
     padding-bottom: 15px

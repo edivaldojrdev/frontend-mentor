@@ -11,6 +11,7 @@
 :root{
     --cor00: hsl(225, 100%, 94%);
     --cor01: hsl(245, 75%, 52%);
+    --cor01-t: hsla(245, 75%, 52%, 0.445);
     --cor02: hsl(225, 100%, 98%);
     --cor03: hsl(224, 23%, 55%);
     --cor04: hsl(223, 47%, 23%);
@@ -87,8 +88,20 @@ button{
     margin-bottom: 2rem;
     font-weight: bold;
 }
+button:hover{
+    background-color: var(--cor01-t);
+    cursor: pointer;
+}
 .cancel{
     text-decoration: none;
     margin-bottom: 3rem;
     color: var(--cor03);
+}
+.cancel:hover{
+    color: black;
+    font-weight: bolder;
+}
+.change:hover{
+    text-decoration: none;
+    color: var(--cor01-t);
 }
