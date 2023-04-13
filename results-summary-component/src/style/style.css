@@ -4,12 +4,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 1rem;
+    font-family: 'Hanken Grotesk', sans-serif;    
     font-weight: normal;
 }
 :root{
-
     --cor00: hsl(0, 100%, 67%);
     --cor00-t: hsla(0, 100%, 67%, 0.096);
     --cor01: hsl(39, 100%, 56%);
@@ -62,6 +60,7 @@ body{
 h1{
     color: var(--cor09);    
     margin-bottom: 1rem;
+    font-size: 1rem;
 }
 .bluebox > strong{
     margin-bottom: 1rem;
@@ -158,9 +157,6 @@ button:hover{
 .bestclass{
     color: var(--cor10);
 }
-.yourclass{
-
-}
 .summary{
     margin-bottom: 1rem;
     font-weight: bold;
@@ -176,23 +172,81 @@ img{
     font-size: 0.8rem;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 470px){
     body{
-        display: block;
-
-        
+        display: block;        
     }
     .container{
         flex-direction: column;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
     }
     .bluebox{
         width: 100%;
-        border-radius: 0px;
+        height: 50vh;
+        border-radius: 0rem 0rem 2rem 2rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .numberofresult{
+        width: 12rem;
+        height: 12rem;
+        margin-bottom: 3rem;
+    }
+    .numberofresult > strong{
+        font-size: 4rem;
+    }
+    .numberofresult > span{
+        font-size: 0.8rem;
+    }
+    .bluebox > strong{
+        font-size: 2.5rem;
+    }
+    .bluebox > span{
+        font-size: 1rem;
     }
     .whitebox{
         width: 100%;
+        height: 50vh;
     }
-    
+    .summary{
+        font-size: 1.5rem;
+    }
+    .reaction{        
+        margin-bottom: 1rem;        
+        padding: 0.7rem 0.3rem;        
+    }
+    .memory{
+        margin-bottom: 1rem;        
+        padding: 0.7rem 0.3rem;
+    }
+    .verbal{
+        margin-bottom: 1rem;        
+        padding: 0.7rem 0.3rem;
+    }
+    .visual{
+        margin-bottom: 2rem;        
+        padding: 0.7rem 0.3rem;
+    }
+    .skill > span{
+        font-size: 1rem;
+    }
+    .skill > img{
+        width: 20px;
+        height: 20px;
+    }
+    .classification > span{
+        font-size: 1rem;
+
+    }
+    .classification > strong{
+        font-size: 1rem;
+    }
+    button{
+        padding: 1rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+    }
+
  }
