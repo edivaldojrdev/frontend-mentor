@@ -8,8 +8,11 @@
   <title>Frontend Mentor | Product preview card component</title>  
 </head>
 <body>
-  <main>    
-    <img src="src/images/image-product-desktop.jpg" alt="image product" class="imgperfum">        
+  <main>
+    <picture>
+    <source media="(max-width: 500px)" srcset="src/images/image-product-mobile.jpg" class="imgmenor">    
+    <img src="src/images/image-product-desktop.jpg" alt="image product" class="imgperfum"> 
+    </picture>        
     <div class="quadrado">
       <h1>
         PERFUME
