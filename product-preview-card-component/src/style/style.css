@@ -93,7 +93,7 @@ img.imgcar{
 .addcart:hover{
     background-color: var(--cor01-h);
     cursor: pointer;
-    border-radius: ;
+    
 }
 @media screen and (max-width: 500px){
     body{
@@ -101,12 +101,19 @@ img.imgcar{
     }
     main{
         flex-direction: column;
-        width: 100vw;
-        height: 63vh;
+        width: 100vw; 
+        background-color: white;  
+        justify-content: center;
+        align-items: center;     
     }
     img.imgperfum{
         border-radius: 1rem 1rem 0 0;        
     }
+    .quadrado{
+        background-color: white;
+        border-radius: 0 0 1rem 1rem;
+    }
+    
     
 
 
