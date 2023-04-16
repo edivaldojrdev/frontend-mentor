@@ -39,10 +39,11 @@ img{
     background-color: var(--cor01-cardbg);
     color: var(--cor03-w);
     font-family: var(--font-inter);
-    padding: 1rem 4.6rem 1rem 2rem;
+    padding: 1.5rem 4rem 1rem 2.5rem;
 }
 h1{
     font-size: 1.3rem;
+    margin-bottom: 1rem;
 }
 h1 > span{
     color: var(--cor02-accent);
@@ -50,16 +51,17 @@ h1 > span{
 .descrition{
     color: var(--cor04-transparent-white-main-paragraph);
     font-size: 0.6rem;
-    margin-bottom: 3rem;
-        
+    margin-bottom: 2.5rem;
+    line-height: 1.1rem;        
 }
 .strong{
     font-size: 0.9rem;
     margin-bottom: 0.3rem;
 }
 .nameskill{
-    font-size: 0.5rem;
+    font-size: 0.46rem;
     color: var(--cor05-transparent-white-stat-headings);
     text-transform: uppercase;
     font-family: var(--font-lexend);
+    letter-spacing: 0.05rem;
 }
