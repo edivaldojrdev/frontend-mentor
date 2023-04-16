@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+:root{
+    --cor00-mainbg: hsl(233, 47%, 7%);
+    --cor01-cardbg: hsl(244, 38%, 16%);
+    --cor02-accent: hsl(277, 64%, 61%);
+    --cor03-w: hsl(0, 0%, 100%);
+    --cor04-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --cor05-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+    --font-inter: 'Inter', sans-serif;
+    --font-lexend: 'Lexend Deca', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor00-mainbg);
+}
+main{
+    display: flex;
+    width: 650px;
+}
+img{
+    width: 50%;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.companies, .templates, .queries {
+    display: flex;
+    flex-direction: column;
+}
+.informations{
+    background-color: var(--cor01-cardbg);
+    color: var(--cor03-w);
+    font-family: var(--font-inter);
+    padding: 1rem 4.6rem 1rem 2rem;
+}
+h1{
+    font-size: 1.3rem;
+}
+h1 > span{
+    color: var(--cor02-accent);
+}
+.descrition{
+    color: var(--cor04-transparent-white-main-paragraph);
+    font-size: 0.6rem;
+    margin-bottom: 3rem;
+        
+}
+.strong{
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+.nameskill{
+    font-size: 0.5rem;
+    color: var(--cor05-transparent-white-stat-headings);
+    text-transform: uppercase;
+    font-family: var(--font-lexend);
+}
