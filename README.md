@@ -13,3 +13,5 @@
 
 <a href="https://edivaldojrdev.github.io/frontend-mentor/stats-preview-card-component/index.html">Stats Preview Card Component</a>
 
+<a href="https://edivaldojrdev.github.io/frontend-mentor/3-column-preview-card-component/index.html">3 Column Preview Card Component</a>
+
