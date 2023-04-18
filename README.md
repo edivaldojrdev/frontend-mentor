@@ -11,3 +11,5 @@
 
 <a href="https://edivaldojrdev.github.io/frontend-mentor/order-summary-component/index.html">Order Summary Component</a>
 
+<a href="https://edivaldojrdev.github.io/frontend-mentor/stats-preview-card-component/index.html">Stats Preview Card Component</a>
+
