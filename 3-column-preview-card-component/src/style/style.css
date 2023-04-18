@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+:root{
+    --cor01: hsl(31, 77%, 52%);
+    --cor02: hsl(184, 100%, 22%);
+    --cor03: hsl(179, 100%, 13%);
+    --cor04-p: hsla(0, 0%, 100%, 0.75);
+    --cor05-background-headings-buttons: hsl(0, 0%, 95%);
+    --font-lexend-deca:  'Lexend Deca', sans-serif;
+    --font-big: 'Big Shoulders Display', cursive;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;    
+    border-radius: 1rem;
+    width: 620px;
+    height: 350px;            
+}
+.yellowcard{
+    background-color: var(--cor01); 
+    border-radius: 0.5rem 0 0 0.5rem;   
+}
+.yellowcard > button{
+    color: var(--cor01);        
+}
+.yellowcard > button:hover{
+    background-color: var(--cor01);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.bluecard{
+    background-color: var(--cor02);
+}
+.bluecard > button{
+    color: var(--cor02);        
+}
+.bluecard > button:hover{
+    background-color: var(--cor02);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.greencard{
+    background-color: var(--cor03);
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.greencard > button{
+    color: var(--cor03);    
+}
+.greencard > button:hover{
+    cursor: pointer;
+    background-color: var(--cor03);
+    color: white;
+    border: 1px solid white;
+}
+.yellowcard, .bluecard, .greencard{    
+    padding: 2rem 2.5rem 1rem 1.5rem;
+}
+button{
+    padding: 0.8rem 1.4rem;
+    border-radius: 1.2rem;
+    border: transparent;
+    font-family: var(--font-lexend-deca);
+    font-size: 0.6rem;
+}
+img{
+    margin-bottom: 1rem;
+}
+p{
+    margin-bottom: 4rem;
+    font-family: var(--font-lexend-deca);
+    font-size: 0.6rem;
+    color: var(--cor04-p); 
+    line-height: 1rem;   
+}
+h1{
+    margin-bottom: 1rem;
+    font-family: var(--font-big);
+    text-transform: uppercase;
+    font-size: 1.6rem;    
+}
+@media screen and (max-width: 618px){
+    body{
+        min-height: 100vh;
+        justify-content: center;
+        align-items: baseline;
+        padding: 1.5rem 0rem;        
+    }
+    main{
+        flex-direction: column;
+        width: 280px;
+    }
+    .yellowcard{
+        border-radius: 0.5rem 0.5rem 0 0 ;
+    }
+    .greencard{
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+    
+}
+
+
