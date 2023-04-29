@@ -95,16 +95,15 @@ h1 > span{
 @media screen and (max-width: 653px) {      
     main{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;                       
     }          
-    .imgfull{
-        order: -1;
+    .imgfull{        
         border-radius: 0.5rem 0.5rem 0 0;        
     }
     img{
-        border-radius: 0.5rem 0.5rem 0 0;               
+        border-radius: 0.5rem 0.5rem 0 0;                       
     }
     .imgfull::after{
         border-radius: 0.5rem 0.5rem 0 0;        

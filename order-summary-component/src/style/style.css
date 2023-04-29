@@ -7,7 +7,6 @@
     box-sizing: border-box;
     font-family: var(--font);
 }
-
 :root{
     --cor00: hsl(225, 100%, 94%);
     --cor01: hsl(245, 75%, 52%);
@@ -72,6 +71,9 @@ main div span.text{
     display: flex;
     flex-direction: column;       
 }
+.price > strong{
+    margin-bottom: 0.3rem;
+}
 span.downprice{
     color: var(--cor03);
 }
@@ -104,4 +106,14 @@ button:hover{
 .change:hover{
     text-decoration: none;
     color: var(--cor01-t);
+}
+.text{
+    line-height: 1.5rem;
+}
+h1{
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+.cancel{
+    font-weight: bolder;
 }
