@@ -15,3 +15,5 @@
 
 <a href="https://edivaldojrdev.github.io/frontend-mentor/3-column-preview-card-component/index.html">3 Column Preview Card Component</a>
 
+<a href="https://edivaldojrdev.github.io/frontend-mentor/profile-card-component/index.html">Profile Card Component</a>
+
