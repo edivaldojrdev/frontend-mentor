@@ -17,3 +17,5 @@
 
 <a href="https://edivaldojrdev.github.io/frontend-mentor/profile-card-component/index.html">Profile Card Component</a>
 
+<a href="https://edivaldojrdev.github.io/frontend-mentor/single-price-grid-component-master/index.html">Single Price Grid Component Master</a>
+
