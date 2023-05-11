@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+}
+:root{
+--cor00-Cyan: hsl(179, 62%, 43%);
+--cor01-Bright-Yellow: hsl(71, 73%, 54%);
+
+--cor02-Light-Gray: hsl(204, 43%, 93%);
+--cor03-Grayish-Blue: hsl(218, 22%, 67%);
+}
+body{
+    background-color: var(--cor02-Light-Gray);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 40rem;        
+}
+.cardtop{
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: var(--cor00-Cyan);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.cardtop > strong{
+    color: var(--cor01-Bright-Yellow);
+    margin-bottom: 0.8rem;
+}
+.cardtop > p{
+    color: var(--cor03-Grayish-Blue);
+}
+.cardbotton{
+    display: flex;
+    flex-direction: row;    
+}
+.cardleft{
+    background-color: var(--cor00-Cyan);
+    width: 20rem;
+    padding: 2rem;
+}
+.cardleft > h2{
+    color: white;
+    margin-bottom: 1rem;
+}
+.cardright{
+    width: 20rem;
+    padding: 2rem;
+    color: white;
+}
+.cardright > h2{
+    margin-bottom: 1rem;
+}
