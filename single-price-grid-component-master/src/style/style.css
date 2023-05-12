@@ -9,10 +9,13 @@
 }
 :root{
     --cor00-Cyan: hsl(179, 62%, 43%);
+    --cor00-Cyan-1: hsla(179, 90%, 38%, 0.603);
     --cor01-Bright-Yellow: hsl(71, 73%, 54%);
 
     --cor02-Light-Gray: hsl(204, 43%, 93%);
+    --cor02-Light-Gray-1: hsla(203, 44%, 93%, 0.507);
     --cor03-Grayish-Blue: hsl(218, 22%, 67%);
+    --cor03-Grayish-Blue-1: hsla(216, 22%, 67%, 0.61);
 }
 body{
     background-color: var(--cor02-Light-Gray);
@@ -30,6 +33,7 @@ main{
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    border-radius: 0.4rem 0.4rem 0 0;
 }
 h1{
     color: var(--cor00-Cyan);
@@ -41,7 +45,9 @@ h1{
     margin-bottom: 0.8rem;
 }
 .cardtop > p{
-    color: var(--cor03-Grayish-Blue);
+    color: var(--cor03-Grayish-Blue-1);
+    font-weight: lighter;
+    font-size: 0.9rem;
 }
 .cardbotton{
     display: flex;
@@ -51,6 +57,7 @@ h1{
     background-color: var(--cor00-Cyan);
     width: 20rem;
     padding: 2rem;
+    border-radius: 0 0 0 0.4rem;
 }
 .cardleft > h2{
     color: white;
@@ -60,7 +67,64 @@ h1{
     width: 20rem;
     padding: 2rem;
     color: white;
+    border-radius: 0 0 0.4rem 0;
+    background-color: var(--cor00-Cyan-1);
 }
 .cardright > h2{
     margin-bottom: 1rem;
+}
+.cardright > p{
+    color: var(--cor02-Light-Gray);
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+.cardleft > button{
+    background-color: var(--cor01-Bright-Yellow);
+    width: 100%;
+    border: none;
+    color: white;
+    height: 2.8rem;
+    border-radius: 0.4rem;
+
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7rem;
+    
+}
+.price > strong{
+    color: white;
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+.price > span{
+    color: var(--cor02-Light-Gray-1); 
+    font-weight: 400;       
+}
+.cardleft > p{
+    color: white;
+    margin-bottom: 2rem;
+}
+.firstp{
+    margin-bottom: 0.6rem;
+}
+@media screen and (max-width:650px){
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .cardbotton{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardleft{
+        border-radius: 0;
+    }
+    .cardright{
+        border-radius: 0 0 0.4rem 0.4rem;
+    }
 }
