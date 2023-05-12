@@ -8,11 +8,11 @@
     font-family: 'Karla', sans-serif;
 }
 :root{
---cor00-Cyan: hsl(179, 62%, 43%);
---cor01-Bright-Yellow: hsl(71, 73%, 54%);
+    --cor00-Cyan: hsl(179, 62%, 43%);
+    --cor01-Bright-Yellow: hsl(71, 73%, 54%);
 
---cor02-Light-Gray: hsl(204, 43%, 93%);
---cor03-Grayish-Blue: hsl(218, 22%, 67%);
+    --cor02-Light-Gray: hsl(204, 43%, 93%);
+    --cor03-Grayish-Blue: hsl(218, 22%, 67%);
 }
 body{
     background-color: var(--cor02-Light-Gray);
