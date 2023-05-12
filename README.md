@@ -19,3 +19,5 @@
 
 <a href="https://edivaldojrdev.github.io/frontend-mentor/single-price-grid-component-master/index.html">Single Price Grid Component Master</a>
 
+<a href="https://edivaldojrdev.github.io/frontend-mentor/social-proof-section-master/index.html">Social Proof Section Master</a>
+
