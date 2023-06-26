@@ -1,7 +1,7 @@
 # frontend-mentor
  Challenges
 
- <p>
+ <p>Some projects using frontend mentor challenges</p>
 
  <a href="https://edivaldojrdev.github.io/frontend-mentor/qr-code-component/index.html">Qr Code Component</a>
  
