@@ -18,7 +18,7 @@
     --font-tit: 'Fraunces', serif;
 }
 body{
-    background-color: black;
+    background-color: var(--cor02);
     min-height: 100vh;
     display: flex;    
     align-items: center;
